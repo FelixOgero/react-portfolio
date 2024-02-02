@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 export default function ContactMe() {
-
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -10,9 +9,12 @@ export default function ContactMe() {
 
     emailjs.sendForm('service_sjck8ws', 'template_8td73sc', form.current, 'uGCm5vOIcfvQNDCHf')
       .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
+        console.log(result.text);
+        // Clear the form fields after successful submission
+        form.current.reset();
+      })
+      .catch((error) => {
+        console.log(error.text);
       });
   };
 
@@ -52,7 +54,7 @@ export default function ContactMe() {
           <span className="text-md">Message</span>
           <textarea
             className="contact--input text-md"
-            name='message'
+            name="message"
             id="message"
             rows="8"
             placeholder="Type your message..."
@@ -65,3 +67,4 @@ export default function ContactMe() {
     </section>
   );
 }
+
