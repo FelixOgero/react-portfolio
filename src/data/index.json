@@ -1,0 +1,77 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Data Science",
+      "description": "Expert in data science with proficiency in R and Python, transforming complex datasets into actionable insights."
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Mobile",
+      "description": "Specializing in Flutter, creating sleek and responsive cross-platform apps for optimal user experiences."
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "Machine Learning",
+      "description": "Machine learning expert, developing and deploying innovative models for practical solutions and impactful outcomes."
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Web Dev",
+      "description": "Web developer adept in PHP Laravel, JavaScript and React, creating fast, responsive robust and efficient web solutions."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/data.jpg",
+      "title": "Data Science",
+      "description": "Financial analysis and market prediction models, leveraging data insights for informed financial market strategies and decision making.",
+      "link":  "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "./img/mobile.jpg",
+      "title": "Mobile Dev",
+      "description": "Sleek and responsive mobile applications using Flutter, ensuring delightful user experiences through innovative design and functionality",
+      "link": "View In Github"
+    },
+    {
+      "id": "3",
+      "src": "./img/web.jpg",
+      "title": "Web Dev",
+      "description": "Developed robust web solutions with Laravel backend and React frontend, seamlessly blending efficiency, and user-centric design for impactful experiences.",
+      "link": "View In Github"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar1.png",
+      "description": "Exceptional coder, delivered high-quality solutions on time, exceeded expectations. A valued partner in development projects.",
+      "author_name": "William Munezero",
+      "author_designation": "Freelancer"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar2.png",
+      "description": "Skilled developer, tackled complex challenges effortlessly. Reliable, efficient, and a pleasure to work with consistently.",
+      "author_name": "Lizzie",
+      "author_designation": "Designer"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar3.png",
+      "description": "Innovative problem solver, transformed concepts into functional code seamlessly. Dependable, responsive, a standout in software development.",
+      "author_name": "Vincent Were",
+      "author_designation": "Data Scientist"
+    }
+  ]
+}
