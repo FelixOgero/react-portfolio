@@ -10,12 +10,12 @@ export default function AboutMe() {
           {/* <h1 className="skills-section--heading">About Me</h1> */}
           <p className="hero--section-description">
           As a versatile software developer, I excel in crafting dynamic and responsive 
-          web applications, designing seamless mobile experiences, and harnessing the 
+          web applications, designing seamless machine learning models, and harnessing the 
           power of data science to derive meaningful insights.
           </p>
           <p className="hero--section-description">
           With a keen eye for user-centric design and a robust skill set 
-          spanning web development, mobile development and data science, I bring innovation and efficiency 
+          spanning web development, machine learning and data science, I bring innovation and efficiency 
           to every project, delivering solutions that blend cutting-edge technology
            with a user-centric approach.
           </p>

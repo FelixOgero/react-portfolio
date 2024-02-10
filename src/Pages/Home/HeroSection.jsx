@@ -10,7 +10,7 @@ export default function HeroSection() {
             Engineer
           </h1>
           <p className="hero--section-description">
-          I'm a dynamic software developer, specializing in web and mobile development, and data science.
+          I'm a dynamic software developer, specializing in web development, machine learning, and data science.
             <br /> With a passion for innovation, I create solutions that blend cutting-edge technology and user-centric design.
           </p>
         </div>
